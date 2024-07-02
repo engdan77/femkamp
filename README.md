@@ -53,6 +53,14 @@ Requirements
 
 Copy the `femkamp.py`  to your Pythonista3 app, and then follow the "[share sheet](https://omz-software.com/pythonista/docs-3.4/py3/ios/pythonista_shortcuts.html#pythonista-share-extension)" instructions to create a shortcut to this Python script.
 
+## How to use
+
+From within Numbers ensure the first column is the name of the competitor and the colums represents the different events, then click on the **<u>export</u>** and select **<u>CSV</u>** followed by "*Run Pythonista Script*"
+
+<img src="https://raw.githubusercontent.com/engdan77/project_images/master/pics/image-20240702130410614.png" alt="image-20240702130410614" style="zoom: 25%;" />
+
+
+
 ## License
 
 Copyright (c) 2024 Daniel Engvall
