@@ -33,9 +33,23 @@ Daniel: 2 [Competition score: 75]
 Nils: 1 [Competition score: 68]
 
 =============Summary score==============
-1: Daniel [Score: 5]
-2: Nils [Score: 4]
+1: Daniel [Score: 5] 🥇
+2: Nils [Score: 4] 🥈
 ```
 
 .. so for each competition I can tell who was the winner and who was the true winner at the end 🏆
+
+Symbols
+
+Medals are shown for the summary 🥇, 🥈 or 🥉. And if there's a tie between competitor you can pay attention to a 🤝 that means you may need to take this into account.
+
+Requirements
+
+- [Pythonista3](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/pythonista-3/id1085978097&ved=2ahUKEwi6m__Gz4eHAxWWExAIHVj4B8wQFnoECBcQAQ&usg=AOvVaw3bRq2p9kAOLiy2adnnJViz) in IOS (e.g. iPhone or iPad)
+- [Numbers](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://apps.apple.com/us/app/numbers/id361304891&ved=2ahUKEwjzp_Xcz4eHAxWgHRAIHdBqDpQQFnoECBIQAQ&usg=AOvVaw2AJR2YTDAgs76wFDXHCm_K)
+- The Python script
+
+Installation
+
+Within Pythonista3 down 
 
