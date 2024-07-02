@@ -127,14 +127,21 @@ def print_results(result_grenar):
         print(gren.center(40, '='))
         gren_points = [_.point for _ in name_points]
         point_converter = get_point_converter(gren_points)
+        last_point = None
         for name, point in sorted(name_points, key=lambda p: p.point, reverse=True):
+            shared = '🤝' if last_point == point else ''
             rank_point = point_converter[point]
-            print(f'{name}: {rank_point} [Competition score: {point}]')
+            print(f'{name}: {rank_point} [Competition score: {point}] {shared}')
             total_point[name] += rank_point
+            last_point = point
     print('\n')
     print('Summary score'.center(40, '='))
+    last_point = None
     for rank, (name, point) in enumerate(sorted(total_point.items(), key=lambda x: x[1], reverse=True), 1):
-        print(f'{rank}: {name} [Score: {point}]')
+        medal = {1: '🥇', 2: '🥈', 3: '🥉'}
+        shared = '🤝' if last_point == point else ''
+        print(f'{rank}: {name} [Score: {point}] {medal.get(rank, "")} {shared}')
+        last_point = point
 
 
 def main():
