@@ -55,7 +55,7 @@ Copy the `femkamp.py`  to your Pythonista3 app, and then follow the "[share shee
 
 ## License
 
-Copyright (c) [2024] [Daniel Engvall]
+Copyright (c) 2024 Daniel Engvall
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
